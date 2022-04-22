@@ -1,0 +1,36 @@
+.bpmn {
+    height: 100%;
+    display:flex;
+
+    &__container {
+        flex-grow: 1;
+        position: relative;
+    }
+
+    &__panel {
+        min-width:300px;
+        box-shadow: -5px 5px 5px rgba(68, 68, 68, 0.05);
+        position: relative;
+        z-index:9;
+        background-color:white;
+    }
+
+    & footer {
+        position: absolute;
+        background-color: whitesmoke;
+        width:100%;
+        left:0;
+        bottom: 0;
+        z-index:8;
+        padding: 20px;
+
+        & button {
+            padding: 5px 10px;
+            background-color: white;
+            outline: none;
+            border:1px solid black;
+            border-radius: 5px;
+        }
+    }
+
+}

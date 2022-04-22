@@ -1,0 +1,46 @@
+{
+  "name": "bmnp-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack",
+    "start": "serve dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristinaBusacker/bmnp-react.git"
+  },
+  "author": "Christina Marie Busacker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristinaBusacker/bmnp-react/issues"
+  },
+  "homepage": "https://github.com/ChristinaBusacker/bmnp-react#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.17.9",
+    "@bpmn-io/properties-panel": "^0.13.2",
+    "bpmn-js": "^9.0.3",
+    "bpmn-js-properties-panel": "^1.0.0",
+    "diagram-js-minimap": "^2.1.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.4",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.0.0-rc.1"
+  }
+}
